@@ -1,0 +1,34 @@
+*{
+    margin: 20px;
+}
+
+#container1{
+    display: flex;
+    margin: 50px 50px;
+    
+}
+#container2{
+    display: flex;
+    margin: 50px 50px;
+    
+}
+.x{
+    padding: 15px;
+    background-color: rgb(156, 108, 45);
+    border-radius: 3px;
+    border-color: black;
+    border-width: 3px;
+    height: 40px;
+    width: 40px;
+}
+.y{
+    padding: 5px;
+    background-color: rgb(62, 69, 83);
+    border-radius: 3px;
+    border-color: rgb(151, 81, 81);
+    border-width: 3px;
+    height: 100px ;
+    width: 100px;
+    
+}
+

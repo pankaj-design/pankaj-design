@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  
+
+
+<div id="container1">
+  <div class="z"><div class="box1 x" draggable="true">CO2</div></div>
+  <div class="z1"><div class="box2 x" draggable="true">No2</div></div>
+  <div class="z2"><div class="box3 x" draggable="true">So2</div></div>
+  <div class="z3"><div class="box4 x" draggable="true">H2o</div></div>
+  
+</div>
+
+<div id="container2">
+  <div class="box5 y"></div>
+  <div class="box6 y"></div>
+  <div class="box7 y"></div>
+  <div class="box8 y"></div>
+</div>
+<button onclick="myFunction()">Try it</button>
+<div id="camp"></div>
+
+  <script src="script3.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- 
+const box1 = document.querySelector(".box1");
+
+const  ys =document.getElementsByClassName("y");
+
+box1.addEventListener('dragstart', function() {
+    console.log('Dragstart has been trigarred');
+})
+
+box1.addEventListener('dragend', ()=>{
+    console.log('Dragend has been done');
+})
+
+
+
+for (y of ys){
+    y.addEventListener('dragover', (e)=> {
+        e.preventDefault();
+        console.log('Dragover has been done');
+    });
+    y.addEventListener('dragenter', ()=> {
+        console.log('Dragenter has been done');
+    });
+    y.addEventListener('dragleave', ()=> {
+        console.log('Dragleave has been done');
+    });
+    y.addEventListener('drop', (e)=> {
+        console.log('Drop has been done');
+        e.target.append(box1);
+    });
+} -->
